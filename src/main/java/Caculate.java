@@ -26,7 +26,7 @@ public class Caculate {
         if (second == 0) {
             throw new ArithmeticException("By zero");
         }
-        return first / second;
+        return (double) first / (double)second;
     }
 
     public int getFirst() {
@@ -66,4 +66,5 @@ public class Caculate {
         }
         return ketqua;
     }
+
 }
